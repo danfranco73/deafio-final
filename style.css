@@ -1,0 +1,113 @@
+*{
+    padding: 10px;
+    margin: 5px;
+}
+
+.header-container{
+    
+    background-color: rgb(195, 236, 10);
+    position: sticky;
+    top: 30px;
+    }
+.ul-header{
+        font-size: x-large;
+        list-style: none;
+        display: flex;
+        justify-content: space-between  ;
+        
+    }
+.section-container{
+        color: yellow;
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+    }
+.section-novedades{
+        color: rgb(0, 55, 255);
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+    }
+.section-container ol{
+    font-size: x-large;
+    }
+.section-registro{
+        color: rgb(0, 55, 255);
+        background-color: #00ffea;
+        /*display: flex;*/
+        /*justify-content: center;*/
+    }
+
+.logo{
+    color: yellow;
+    display: flex;
+}
+
+.section-main{
+    background-color: none;
+    background-size: contain;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: nowrap;*/
+    flex-flow: row nowrap;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    justify-items: space-evenly;
+    align-items: center;
+
+}
+
+.video{
+    padding: 0;
+    width:auto;
+    height: fit-content;
+}
+
+.parrafo{
+    order: 2;
+    font-size: 100px;    
+    text-align: center;
+    width: min-content;
+    height: auto;
+}
+
+.footer{
+    list-style: none;
+    background-color: yellow;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    
+        
+
+}
+
+ .logo-footer{
+     list-style: none;
+     display: flex;
+     justify-items: last baseline;
+ }
+.marcas{
+    margin:0;
+    padding:13px;
+    width:fit-content;
+    height: fit-content;
+    overflow: hidden;
+    object-fit: cover;
+    }   
+
+ .novedades{
+     list-style: none;
+     font-size: 50px;
+     font-style: arial black;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .vinos{
+     width: 50%;
+     height: 50%;
+ }
